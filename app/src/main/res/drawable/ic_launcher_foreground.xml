@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  NotifyForward 图标前景层
+  108×108dp 视口（安全区 18–90，中心 54,54）
+  设计语义：铃铛（通知）+ 向右转发箭头（转发）
+  内容缩小70%并居中，确保完整显示在安全区域内
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 使用 group 元素将所有内容缩放到安全区域 -->
+    <group
+        android:scaleX="0.70"
+        android:scaleY="0.70"
+        android:translateX="16.2"
+        android:translateY="16.2">
+
+        <!-- ── 铃铛悬线 ── -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="3.5"
+            android:strokeLineCap="round"
+            android:pathData="M54,20 L54,28" />
+
+        <!-- ── 铃铛顶部挂钩圆 ── -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M54,28 m-4.5,0 a4.5,4.5 0 1,0 9,0 a4.5,4.5 0 1,0 -9,0" />
+
+        <!-- ── 铃铛主体（拱形） ── -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="
+                M54,33
+                C38,33 26,43.5 26,57
+                L26,68
+                L82,68
+                L82,57
+                C82,43.5 70,33 54,33
+                Z" />
+
+        <!-- ── 铃铛底部横条（铃口） ── -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M22,68 L86,68 L86,72 Q86,74 84,74 L24,74 Q22,74 22,72 Z" />
+
+        <!-- ── 铃铛振子（底部小圆弧） ── -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M46,74 Q46,82 54,82 Q62,82 62,74 Z" />
+
+        <!-- ── 转发箭头（右下角，强调转发功能） ── -->
+        <!-- 箭杆 -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="0"
+            android:pathData="
+                M38,88
+                L62,88
+                L62,84
+                L76,91
+                L62,98
+                L62,94
+                L38,94
+                Z"
+            android:fillAlpha="0.95" />
+
+        <!-- ── 小圆点装饰（铃铛顶部高光） ── -->
+        <path
+            android:fillColor="#CCFFFFFF"
+            android:pathData="M44,44 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+
+    </group>
+
+</vector>

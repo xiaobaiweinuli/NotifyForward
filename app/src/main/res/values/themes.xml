@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 必须存在以使 Manifest 中 android:theme 引用有效，Compose 主题在代码层完全接管 -->
+    <style name="Theme.NotifyForward" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">通知转发</string>
+    <string name="notification_service_label">通知监听服务</string>
+    <string name="foreground_service_channel_name">转发服务</string>
+    <string name="foreground_service_channel_desc">通知转发保活服务通知</string>
+    <string name="foreground_service_title">通知转发 · 运行中</string>
+    <string name="foreground_service_content">服务正常运行，监听并转发系统通知</string>
+</resources>
